@@ -1,11 +1,11 @@
 # Training
 
-### Baseline
+### 1. Baseline
 ```
 CUDA_VISIBLE_DEVICES=0 python scripts/bert_coref.py -m train -t <train_file_conll> -w <model_file> -v <valid_file_conll> -o <valid_pred_file> -s reference-coreference-scorers/scorer.pl -se 4 -lr 0.0005 -shuffle
 ```
 
-### Type Informed Model
+### 2. Type Informed Model
 <h3 align="center">Using Type Information to Improve Entity Coreference Resolution (CODI@EMNLP 2020)</h3>
 <p align="center">
   <a href="https://aclanthology.org/2020.codi-1.3/"><img src="http://img.shields.io/badge/Paper-PDF-red.svg"></a>
@@ -48,7 +48,7 @@ CUDA_VISIBLE_DEVICES=0 python scripts/bert_coref.py -m train -t <train_file_conl
 **NOTE:** `-co` denotes common types.
 
 
-### Discourse Informed Model
+### 3. Discourse Informed Model
 
 <h3 align="center">Evaluating the Impact of a Hierarchical Discourse Representation on Entity Coreference Resolution Performance (NAACL 2021)</h3>
 <p align="center">
