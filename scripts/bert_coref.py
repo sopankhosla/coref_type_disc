@@ -1144,12 +1144,16 @@ if __name__ == "__main__":
 	
 	with_type_self = args["with_type_self"]
 	with_type_cross = args["with_type_cross"]
+
 	with_num_ctsy = args['with_num_ctsy']
 	with_num_ctsy_cross = args['with_num_ctsy_cross']
+
 	with_disc_tree_feats = args['with_disc_tree_feats']
 	with_mention_cat = args['with_mention_cat']
 	with_overlap = args['with_overlap']
 	without_sent_distance = args['without_sent_distance']
+
+	
 	only_wsj = args['only_wsj']
 	only_subgenre = args['only_subgenre']
 	
